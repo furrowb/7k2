@@ -49,20 +49,20 @@ extern const int GAME_VERSION;
 #define CONFIG_ORGANIZATION_NAME "7kfans.com"
 #define CONFIG_APPLICATION_NAME "7k2"
 
-#define DIR_RES               "resource"PATH_DELIM
-#define DIR_SPRITE            "sprite"PATH_DELIM
-#define DIR_FIRM              "firm"PATH_DELIM
-#define DIR_FIRM_SMALL        "firmsml"PATH_DELIM
-#define DIR_SOUND             "sound"PATH_DELIM
-#define DIR_SAVE              "save"PATH_DELIM
-#define DIR_IMAGE             "image"PATH_DELIM
-#define DIR_MUSIC             "music"PATH_DELIM
-#define DIR_TUTORIAL          "tutorial"PATH_DELIM
-#define DIR_SCENARIO          "scenario"PATH_DELIM
-#define DIR_CAMPAIGN          "campaign"PATH_DELIM
+#define DIR_RES               "resource" PATH_DELIM
+#define DIR_SPRITE            "sprite" PATH_DELIM
+#define DIR_FIRM              "firm" PATH_DELIM
+#define DIR_FIRM_SMALL        "firmsml" PATH_DELIM
+#define DIR_SOUND             "sound" PATH_DELIM
+#define DIR_SAVE              "save" PATH_DELIM
+#define DIR_IMAGE             "image" PATH_DELIM
+#define DIR_MUSIC             "music" PATH_DELIM
+#define DIR_TUTORIAL          "tutorial" PATH_DELIM
+#define DIR_SCENARIO          "scenario" PATH_DELIM
+#define DIR_CAMPAIGN          "campaign" PATH_DELIM
 // see MAX_SCENARIO_PATH in sys
 #define DIR_SCENARIO_PATH(p)  sys.dir_scenario_path[p]
-#define DIR_SCENARIO_PREMADE  "scenario"PATH_DELIM"premade"PATH_DELIM
+#define DIR_SCENARIO_PREMADE  "scenario" PATH_DELIM "premade" PATH_DELIM
 
 //--------- Define direction types -----------//
 

@@ -340,7 +340,7 @@ void GameFile::set_file_name(const char *path, const char *extension)
 
 	// #### begin Gilbert 31/10 #####//
 	// str = player_profile.save_game_path("");		// save dir "\\"
-	if( path && path != '\0' )
+	if( path && *path != '\0' )
 	{
 		str = path;
 		str += PATH_DELIM;
